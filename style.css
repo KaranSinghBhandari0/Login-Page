@@ -45,9 +45,9 @@ body {
 
 #remember-div {
     width: 80%;
-    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #login-btn {

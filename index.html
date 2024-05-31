@@ -9,6 +9,7 @@
 </head>
 <body>
 
+    <!-- login div -->
     <div class="login-box">
         <h1>Login</h1>
 
@@ -27,8 +28,55 @@
         </div>
 
         <button id="login-btn">Login</button>
-        <hr>
+        <br>
         <p>Don't have an account? <span id="sign-in">Sign in</span> </p>
+    </div>
+
+
+    <!-- Sign up -->
+    <div class="sign-in-div">
+        <h1>Welcome</h1>
+        <h4>Create your account</h4>
+
+        <div class="sign-up-inner-divs">
+            <input type="text" placeholder="Username" class="sign-up-inputs" >
+            <i class="fa-solid fa-user" ></i>
+        </div>
+        <div class="sign-up-inner-divs">
+            <input type="password" placeholder="Password" class="sign-up-inputs" id="input-password">
+            <i class="fa-solid fa-lock" id="pass-icon"></i>
+            <input type="password" placeholder="Confirm-Password" id="confirm-pass" class="sign-up-inputs" >
+        </div>
+        <div class="sign-up-inner-divs">
+            <input type="text" placeholder="Email" class="sign-up-inputs" >
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <button id="Sign-Up-btn">Sign Up</button>
+
+        <div id="or-div">
+            <hr width="40%" size="2">
+            <p>or</p>
+            <hr width="40%" size="2">
+        </div>
+
+        <div id="Continue-With-Google-div">
+            <img src="google.png" id="google-img">
+            <p>Continue With Google</p>
+        </div>
+
+        <div id="Continue-With-apple-div">
+            <img src="IMG_1808.PNG" id="apple-img">
+            <p>Continue With apple</p>
+        </div>
+
+        <div id="or-div">
+            <hr width="40%" size="2">
+            <p>or</p>
+            <hr width="40%" size="2">
+        </div>
+        
+        <p>Already have an account? <span id="log-in">Login</span> </p>
     </div>
 
     <script src="app.js"></script>
